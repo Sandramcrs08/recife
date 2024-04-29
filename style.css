@@ -1,0 +1,29 @@
+/* Estilos para todo o documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+    display: flex; /* Aplicando Flexbox */
+    flex-wrap: wrap; /* Permitindo que os itens sejam envolvidos em linhas */
+    justify-content: space-between; /* Distribuindo os itens uniformemente ao longo do eixo principal */
+}
+
+/* Estilos para imagens */
+img {
+    width: 300px; 
+    height: 200px; 
+    margin-bottom: 20px;
+}
